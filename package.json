@@ -1,0 +1,22 @@
+{
+  "name": "multi-spa-react-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nilshartmann/multi-spa-react-playground"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-app-one": "cd app/app-one && npm install",
+    "install-app-two": "cd app/app-two && npm install",
+    "build-app-one": "cd app/app-one && npm run dist",
+    "build-app-two": "cd app/app-two && npm run dist",
+    "build": "npm run build-app-one && npm run build-app-two",
+    "postinstall": "npm run install-app-one && npm run install-app-two"
+  },
+  "keywords": ["SPA", "React", "TypeScript", "integration patterns"],
+  "author": "Nils Hartmann",
+  "license": "ISC"
+}

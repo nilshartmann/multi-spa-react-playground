@@ -1,0 +1,16 @@
+@import "_vars";
+
+button.removeButton {
+  padding: 0.2rem;
+  margin: 0.2rem;
+  /* background-color: darksalmon; */
+  text-decoration: underline;
+  color: $blue_color;
+  background-color: none;
+
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,10 @@
+button.counterButton {
+  padding: 0.2rem;
+  margin: 0.2rem;
+  background-color: #ae49c7;
+  color: white;
+
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin-top: 2rem;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: #f2f2f2;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+
+h1 {
+  flex: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  display: flex;
+}
+
+.root > div {
+  flex: 1;
+  margin: 1rem;
+}
+
+.root > div > div {
+  height: 100%;
+}

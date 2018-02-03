@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Multi SPA playground</title>
+
+  <link rel="stylesheet" href="global-styles/normalize.css" />
+  <link rel="stylesheet" href="global-styles/app.css" />
+
+  <!-- as both stylesheets are isolated/scopted, we can import them in any
+    order we like -->
+  <link rel="stylesheet" href="app-two/public/dist/styles-app-two.css" />
+  <link rel="stylesheet" href="app-one/public/dist/styles-app-one.css" />
+
+
+</head>
+
+<body>
+
+  <div class="root">
+    <div id="main"></div>
+    <div id="mount-two"></div>
+  </div>
+
+
+</body>
+<script src="app-one/public/dist/bundle.js"></script>
+<script src="app-two/public/dist/main.js"></script>
+
+</html>
