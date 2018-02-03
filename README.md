@@ -1,5 +1,10 @@
 # Playground: use two react apps one page, isolate css with css modules
 
+This is a simple example project that consists of two independent react applications that are included on one
+html page.
+
+You can find a running example here: [https://nilshartmann.github.io/multi-spa-react-playground/app/index.html](https://nilshartmann.github.io/multi-spa-react-playground/app/index.html)
+
 ## Usage
 
 1. Please run `npm install` in the root folder. This will install all dependencies in the two sample apps `app-one` and `app-two`
