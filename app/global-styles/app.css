@@ -29,3 +29,9 @@ h1 {
 .root > div > div {
   height: 100%;
 }
+
+.footer {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
